@@ -1,0 +1,90 @@
+body {
+    background-color: #EEEEEE;
+    font-family: "Lexend Deca", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile-card {
+    margin-top: 40px;
+    width: 400px;
+    height: 700px;
+    background-color: #1D1616;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+
+}
+
+
+img {
+
+    margin-top: 40px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+h1 {
+    color: #EEEEEE;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+p {
+    color: #EEEEEE;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.location {
+    color: #D84040;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+
+button {
+    cursor: pointer;
+    text-transform: capitalize;
+    background-color: #EEEEEE;
+    color: #1D1616;
+    width: 70%;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-style: none;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #D84040;
+}
+
+::selection {
+    background-color: #D84040;
+    color: #EEEEEE;
+}
